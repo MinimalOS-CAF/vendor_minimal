@@ -1,5 +1,5 @@
 #!/system/bin/sh
-# call userinit.sh and/or userinit.d/* scripts if present in /data/local
+# call userinit.sh scripts if present in /data/local
 
 if [ -e /data/local/userinit.sh ];
 then
@@ -8,8 +8,3 @@ then
    setprop aospb.userinit.active 1;
 fi;
 
-if [ -d /data/local/userinit.d ];
-then
-   busybox run-parts /data/local/userinit.d;
-   setprop aospb.userinit.active 1;
-fi;
