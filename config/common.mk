@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Launcher3 \
     Development \
-    SpareParts \
     su
 
 # Optional packages
