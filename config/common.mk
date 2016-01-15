@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/aospb/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
-    vendor/aospb/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit \
     vendor/aospb/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 # Required packages
