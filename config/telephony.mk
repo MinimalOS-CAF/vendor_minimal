@@ -1,5 +1,5 @@
 # APNS
-$(call inherit-product, vendor/aospb/config/common_apn.mk)
+$(call inherit-product, vendor/minimal/config/common_apn.mk)
 
 # Telephony packages
 PRODUCT_PACKAGES += \
