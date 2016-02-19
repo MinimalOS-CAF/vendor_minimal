@@ -2,8 +2,6 @@
 
 # Exports
 
-. $ANDROID_BUILD_TOP/vendor/crdroid/tools/colors
-
 export Changelog=Changelog.txt
 
 if [ -f $Changelog ];
