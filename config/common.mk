@@ -49,22 +49,15 @@ PRODUCT_COPY_FILES += \
 # Required packages
 PRODUCT_PACKAGES += \
     Launcher3 \
-    Development \
     su
 
 # Optional packages
 PRODUCT_PACKAGES += \
-    Basic \
-    LiveWallpapersPicker \
-    PhaseBeam
+    LiveWallpapersPicker
 
 # Boot Animation
 PRODUCT_PACKAGES += \
     bootanimation.zip
-
-# AudioFX
-PRODUCT_PACKAGES += \
-    AudioFX
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
