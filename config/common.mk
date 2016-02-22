@@ -1,3 +1,5 @@
+include vendor/minimal/config/bootanimation.mk
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
@@ -54,10 +56,6 @@ PRODUCT_PACKAGES += \
 # Optional packages
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker
-
-# Boot Animation
-PRODUCT_PACKAGES += \
-    bootanimation.zip
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
