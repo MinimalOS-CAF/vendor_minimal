@@ -99,12 +99,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.sf.omx-plugin=libffmpeg_omx.so \
     media.sf.extractor-plugin=libffmpeg_extractor.so
 
-# easy way to extend to add more packages
--include vendor/extra/product.mk
+# SuperSU
+PRODUCT_COPY_FILES += \
+    vendor/minimal/prebuilt/common/supersu/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+    vendor/minimal/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/minimal/overlay/common
 
-
-
 EXTENDED_POST_PROCESS_PROPS := vendor/minimal/tools/process_props.py
-
